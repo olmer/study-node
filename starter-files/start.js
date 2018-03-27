@@ -17,6 +17,7 @@ mongoose.connection.on('error', (err) => {
   console.error(`🙅 🚫 🙅 🚫 🙅 🚫 🙅 🚫 → ${err.message}`);
 });
 
+require('./handlers/mail');
 // READY?! Let's go!
 
 //import models
